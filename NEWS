@@ -1,0 +1,4 @@
+Changes to Version 1.0
+
+  o Corrected some bugs in the R code of the shiny application
+  o Package description has chaged to fulfill CRAN policies

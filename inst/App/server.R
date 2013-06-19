@@ -67,22 +67,22 @@ shinyServer(function(input, output) {
         m<-min(input$low_bound, min(sample))
         M<-max(input$up_bound,max(sample))
         x<-seq(m,M,(M-m)/input$num_points)
-        dens<-bde(sample=unlist(sample),x=x,estimator=input$method,b=b,options=opt,lower.limit=input$low_bound,upper.limit=input$up_bound)
+        dens<-bde(dataPoints=unlist(sample),dataPointsCache=x,estimator=input$method,b=b,options=opt,lower.limit=input$low_bound,upper.limit=input$up_bound)
         app_dens<-switch(input$kaki_method,
                          "none"={
                            a<-dens
                            a
                          },
                          "b1"={
-                           a<-bde(sample=unlist(sample),x=x,estimator="kakizawa",options=list(method="b1",c=input$kaki_c),lower.limit=input$low_bound,upper.limit=input$up_bound)
+                           a<-bde(dataPoints=unlist(sample),dataPointsCache=x,estimator="kakizawa",options=list(method="b1",c=input$kaki_c),lower.limit=input$low_bound,upper.limit=input$up_bound)
                            a
                          },
                          "b2"={
-                           a<-bde(sample=unlist(sample),x=x,estimator="kakizawa",options=list(method="b2"),lower.limit=input$low_bound,upper.limit=input$up_bound)
+                           a<-bde(dataPoints=unlist(sample),dataPointsCache=x,estimator="kakizawa",options=list(method="b2"),lower.limit=input$low_bound,upper.limit=input$up_bound)
                            a
                          },
                          "b3"={
-                           a<-bde(sample=unlist(sample),x=x,estimator="kakizawa",options=list(method="b3"),lower.limit=input$low_bound,upper.limit=input$up_bound)
+                           a<-bde(dataPoints=unlist(sample),dataPointsCache=x,estimator="kakizawa",options=list(method="b3"),lower.limit=input$low_bound,upper.limit=input$up_bound)
                            a
                          })
       

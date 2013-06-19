@@ -1,5 +1,6 @@
-db8e6491bfd6d584ade1d320302170f5 *DESCRIPTION
+b45502be69b504ac25b608d80a8af6a1 *DESCRIPTION
 8d9dfabff768659bc959ae4fcafc3211 *NAMESPACE
+85b05f1fcb32573d472511e45d0d0916 *NEWS
 9524e72e0e31e74c6cdce1dcb28721e4 *R/BernsteinPolynomials.R
 c30d7c95dc5989f664d52c3725690578 *R/BoundaryKernel.R
 87c070cc45172cfb858055f17f9dec8c *R/BoundedDensity.R
@@ -31,7 +32,7 @@ cc5de9279079237348d3cf643cb693f1 *data/beta_5_10.RData
 07b946ebebe18581632cfe6a7e7dc689 *data/suicide.r.RData
 d501263d7cf81b5a0467bdfda9927a9f *data/tgaussian.RData
 9baf1b3ccd2c97c1ed3fd3be3ce0dccd *data/tuna.r.RData
-bd524403386a827efb6d4da60d9dbefd *inst/App/server.R
+ab2f57a44ed7225eb4134f8e2124c5ad *inst/App/server.R
 0c9bd48815f9b7355781d1b563e9aa34 *inst/App/ui.R
 35e245aa597fbd1b2221db93c59506b6 *inst/App/www/bde.css
 30b150ecf6014fd0144e6874421196b6 *inst/App/www/bde2.css
