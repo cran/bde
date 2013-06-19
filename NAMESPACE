@@ -1,0 +1,71 @@
+import(methods,shiny,ggplot2)
+
+exportClasses(
+  BoundedDensity,
+  Chen99Kernel,
+  MicroBetaChen99Kernel,
+  MacroBetaChen99Kernel,
+  NoBoundaryKernel,
+  Muller91BoundaryKernel,
+  JonesCorrectionMuller91BoundaryKernel,
+  Muller94BoundaryKernel,
+  JonesCorrectionMuller94BoundaryKernel,
+  NormalizedBoundaryKernel,
+  Vitale,
+  BrVitale,
+  KakizawaB1,
+  KakizawaB2,
+  KakizawaB3,
+  HirukawaJLNKernel,
+  HirukawaTSKernel,
+  MacroBetaHirukawaJLNKernel,
+  MacroBetaHirukawaTSKernel
+  )
+
+exportMethods(
+  density,
+  distribution,
+  quantile,
+  rsample,
+  getdataPointsCache,
+  getdensityCache,
+  getdistributionCache,
+  plot,
+  gplot,
+  lines,
+  getdataPoints,
+  getb,
+  getmodified,
+  getmu,
+  getm,
+  getM,
+  getgamma,
+  getdensityEstimator,
+  getc)
+
+export(
+  boundedDensity,
+  chen99Kernel,
+  microBetaChen99Kernel,
+  macroBetaChen99Kernel,
+  noBoundaryKernel,
+  muller91BoundaryKernel,
+  jonesCorrectionMuller91BoundaryKernel,
+  muller94BoundaryKernel,
+  jonesCorrectionMuller94BoundaryKernel,
+  normalizedBoundaryKernel,
+  vitale,
+  brVitale,
+  kakizawaB1,
+  kakizawaB2,
+  kakizawaB3,
+  hirukawaJLNKernel,
+  hirukawaTSKernel,
+  macroBetaHirukawaJLNKernel,
+  macroBetaHirukawaTSKernel,  
+  getSubclasses,
+  mise,
+  bde,
+  launchApp)
+
+
