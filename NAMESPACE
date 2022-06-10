@@ -1,5 +1,8 @@
 import(methods,shiny,ggplot2)
 
+importFrom("stats", "dbeta", "integrate", "runif")
+importFrom("utils", "str")
+
 exportClasses(
   BoundedDensity,
   Chen99Kernel,

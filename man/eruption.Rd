@@ -6,7 +6,7 @@
 \description{
 The dataset comprises lengths (in minutes) of eruptions of Old Faithful geyser in Yellowstone National Park, USA. The data are within the interval [1.67,4.93].
 }
-\usage{eruption.r}
+\usage{eruption}
 \format{A vector containing 107 observations.}
 \source{The data were obtained from Silverman (1996) Table 2.2}
 

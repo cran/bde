@@ -1,5 +1,5 @@
-b45502be69b504ac25b608d80a8af6a1 *DESCRIPTION
-8d9dfabff768659bc959ae4fcafc3211 *NAMESPACE
+c1498f6fa9376d4fcc02d324f81575a0 *DESCRIPTION
+b19a0d792cd4a4d27dac594c282100b7 *NAMESPACE
 85b05f1fcb32573d472511e45d0d0916 *NEWS
 9524e72e0e31e74c6cdce1dcb28721e4 *R/BernsteinPolynomials.R
 c30d7c95dc5989f664d52c3725690578 *R/BoundaryKernel.R
@@ -25,13 +25,13 @@ f23e2e5d6151d35f899d5db9f912af1e *R/NormalizedBoundaryKernel.R
 125a8e08a29d9538de0e9ad8f6b89a18 *R/Vitale.R
 80570acc8ae483c75f06cde28d2b3120 *R/bde.R
 4790b78e61a66b504131b7078f5eaff7 *R/utils.R
-a82a1b80d425aa90ff10338d27e136fe *data/beta_0.75_0.65.RData
-acf533514de7c36994263a068eecc3fe *data/beta_1_10.RData
-cc5de9279079237348d3cf643cb693f1 *data/beta_5_10.RData
-9a2505e10960e9d4b7f34aef6aaccbce *data/eruption.RData
-07b946ebebe18581632cfe6a7e7dc689 *data/suicide.r.RData
-d501263d7cf81b5a0467bdfda9927a9f *data/tgaussian.RData
-9baf1b3ccd2c97c1ed3fd3be3ce0dccd *data/tuna.r.RData
+eed69bfbc79226b583c429fc514ee1e0 *data/beta_0.75_0.65.RData
+095c8c19c53d8c4965b1373800351860 *data/beta_1_10.RData
+9edc077b4d2ffe291bb46213256fd081 *data/beta_5_10.RData
+3c571cffc607b2157e1fd356b1eff3f1 *data/eruption.RData
+fdb1151c9c4b97a8e02c788a67cbf775 *data/suicide.r.RData
+67c868401964706af59ca8c7f87eacab *data/tgaussian.RData
+3c05f69ed1a7627d28acd60ba8073567 *data/tuna.r.RData
 ab2f57a44ed7225eb4134f8e2124c5ad *inst/App/server.R
 0c9bd48815f9b7355781d1b563e9aa34 *inst/App/ui.R
 35e245aa597fbd1b2221db93c59506b6 *inst/App/www/bde.css
@@ -68,7 +68,7 @@ f1751d2ef0c9f3a4dc2b5d866d0bb3b6 *man/brVitale-generator.Rd
 dd581b117f7d2864f5e5d8f72f8ac6a0 *man/chen99Kernel-generator.Rd
 25f48f1852848ec2f46fea53c8b52181 *man/density.Rd
 d0cc4112b52e8068d61c3ab54496d53a *man/distribution.Rd
-ec0aef1e6abff806c79a6baee6ce18cc *man/eruption.Rd
+bfd03cf2c89e9de06568c92a479de4d9 *man/eruption.Rd
 b6b7dca7c8319cf95f652cb799bca7af *man/getM-biasReduction.Rd
 da8f8d4ccd89db278e9fd97ad0dec47d *man/getSubclasses.Rd
 4dea9b64f021745dac2557482463ba43 *man/getb.Rd
